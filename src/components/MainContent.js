@@ -11,6 +11,13 @@ const HOSPITALS = [
       "Sector - 44, Opposite HUDA City Centre Gurgaon Haryana 122002 India",
   },
   {
+    name: "Noida",
+    no_of_beds: 400,
+    img: "https://medsurgeindia.com/wp-content/w3-webp/uploads/2020/02/Fortis-Hospital-Gurgaon.jpgw3.webp",
+    address:
+      "Sector - 44, Opposite HUDA City Centre Gurgaon Haryana 122002 India",
+  },
+  {
     name: "Max Super Speciality Hospital, Saket, New Delhi",
     no_of_beds: 319,
     img: "https://medsurgeindia.com/wp-content/w3-webp/uploads/2020/02/Max-Super-Specialty-Hospital-Saket-New-Delhi.jpgw3.webp",

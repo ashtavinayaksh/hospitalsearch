@@ -3,6 +3,7 @@ import styles from "./Header.module.scss";
 import Container from "@mui/material/Container";
 import logo from '../assets/images/logo.jpg'
 import Box from "@mui/material/Box";
+import Login from "./login/login";
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
         </Box>
         <span>About</span>
         <span>Services</span>
-        <span>Inspect</span>
+        <span><a className="loginButton" href="/login">Login</a></span>
       </Box>
     </Container>
   );

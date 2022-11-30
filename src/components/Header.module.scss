@@ -35,6 +35,12 @@
       color: #fff;
       font-weight: 500;
       margin-left: 15px;
+      text-decoration: underline;
     }
   }
+}
+
+a:visited {
+  color: #fff;
+  // text-decoration: none !important;
 }
