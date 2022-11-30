@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import MainContent from "./components/MainContent";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
+import Popular from "./components/Popular";
 
 const App = () => {
   const [user, setLoginUser] = useState({});
@@ -29,6 +30,11 @@ const App = () => {
             </Route>
             <Route path="/register">
               <Register />
+            </Route>
+            <Route path="/popular">
+            <Header />
+              <Popular />
+              <Footer />
             </Route>
           </Switch>
         </Router>

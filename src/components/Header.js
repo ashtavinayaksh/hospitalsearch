@@ -17,7 +17,7 @@ const Header = () => {
           </div>
         </Box>
         <span>About</span>
-        <span>Services</span>
+        <span><a className="loginButton" href="/popular">Popular</a></span>
         <span><a className="loginButton" href="/login">Login</a></span>
       </Box>
     </Container>
