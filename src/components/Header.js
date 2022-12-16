@@ -12,11 +12,11 @@ const Header = () => {
         <Box className={styles.logo} display="flex" alignItems="center">
           <img src={logo} alt="logo" />
           <div ml={2}>
-            <span className={styles.title}>HealthLife</span>
+            <span className={styles.title} href='/'>HealthLife</span>
             <span className={styles.slogan}>Green Generation</span>
           </div>
         </Box>
-        <span>About</span>
+        <span><a href="/">About</a></span>
         <span><a className="loginButton" href="/popular">Popular</a></span>
         <span><a className="loginButton" href="/login">Login</a></span>
       </Box>
